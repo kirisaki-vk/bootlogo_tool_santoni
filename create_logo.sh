@@ -34,7 +34,7 @@ fi
 #verifiyng available files to be converted (I'm stuck on it btw , still searching an efficient method for it)
 verify_files()
     {
-        if [ ! -f "$PWD/pics/logo.png" ] || [ ! -f "$PWD/pics/logo.jpg" ] ||  ! -f "$PWD/pics/logo.jpg" ] || [ ! -f "$PWD/pics/logo.jpeg" ] || [ ! -f "$PWD/pics/logo.bmp" ] || [ ! -f "$PWD/pics/logo.gif" ] ; then
+        if [ ! -f "$PWD/pics/logo.*" ]; then
             logo_dir=$PWD/
         fi
     }
